@@ -319,7 +319,7 @@ html {
 body {
   background-image: url("low-poly-grid-haikei.svg");
   background-size: cover;
-  animation: rotate 3s infinite alternate linear;
+  animation: rotate 6s infinite alternate linear;
 }
 
 
