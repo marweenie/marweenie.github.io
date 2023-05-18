@@ -1,70 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
-  box-sizing: border-box; /*allows us to include the padding and border in an element's total width and height. */ 
-  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-body{
-  background: lightblue;
+body {
+  background: #4c0032;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  
 }
 
-
-.container{
+.container {
   position: relative;
   width: 100%;
   margin: 50px;
   max-width: 1000px;
   min-height: 1000px;
-  background-color: white;
+  background-color: #460027;
   border-radius: 25px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
-.container .left_Side{
+.container .left_Side {
   position: relative;
-  background-color: #003147;
+  background-color: #460027;
   padding: 40px;
   border-radius: 20px 0 0 20px;
 }
 
-.profileText{
+.profileText {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.profileText .imgBx{
+.profileText .imgBx {
   position: relative;
   width: 200px;
-  height:200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.profileText .imgBx img{
+.profileText .imgBx img {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.profileText h2{
-  color: white;
+.profileText h2 {
+  color: #ffffff;
   font-size: 1.5em;
   margin-top: 20px;
   text-transform: uppercase;
@@ -73,153 +71,147 @@ body{
   line-height: 1.4em;
 }
 
-.profileText h2 span{
+.profileText h2 span {
   font-size: 0.8em;
   font-weight: 300;
-
 }
 
-.special-case{
+.special-case {
   white-space: nowrap;
 }
 
-.contactInfo{
+.contactInfo {
   padding-top: 40px;
 }
 
-.title{
-  color: #fff;
+.title {
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
 
-a.center{
-    color:red;
+a.center {
+  color: #ff5c8d;
 }
 
-.contactInfo ul{
+.contactInfo ul {
   position: relative;
 }
 
-.contactInfo ul li{
+.contactInfo ul li {
   position: relative;
   list-style: none;
-  margin:10px 0;
+  margin: 10px 0;
 }
 
-.contactInfo .linkedin{
+.contactInfo .linkedin {
   cursor: pointer;
 }
 
-.contactInfo .website{
+.contactInfo .website {
   cursor: pointer;
 }
 
-.contactInfo ul li .icon{
+.contactInfo ul li .icon {
   display: inline-block;
   width: 30px;
   font-size: 18px;
-  color: #03a9f4;
+  color: #ff00b0;
 }
 
-.contactInfo ul li span{
-  color: #fff;
+.contactInfo ul li span {
+  color: #ffffff;
   font-weight: 300;
 }
 
-.contactInfo.education li{
+.contactInfo.education li {
   margin-bottom: 15px;
   line-height: 32px;
 }
 
-.contactInfo.education h5{
-  color: #03a9f4;
+.contactInfo.education h5 {
+  color: #ff00b0;
   font-weight: 500;
 }
 
-.contactInfo.education h4:nth-child(2){
-  color: #fff;
+.contactInfo.education h4:nth-child(2) {
+  color: #ffffff;
   font-weight: 500;
 }
 
-.contactInfo.education h4{
-  color: #fff;
+.contactInfo.education h4 {
+  color: #ffffff;
   font-weight: 300;
 }
 
-.contactInfo.language .percent{
-  position:relative;
+.contactInfo.language .percent {
+  position: relative;
   width: 100%;
   height: 6px;
   background-color: #081921;
-  display:block;
+  display: block;
   margin-top: 5px;
 }
 
-.contactInfo.language .percent div{
+.contactInfo.language .percent div {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #03a9f4;
+  background-color: #ff00b0;
 }
 
-
-
-.container .right_Side{
-  
+.container .right_Side {
   position: relative;
-  background-color: white;
+  background-color: #ffffff;
   padding: 40px;
   border-radius: 25px;
-
 }
 
-.about{
+.about {
   margin-bottom: 50px;
 }
 
-.about:last-child{
+.about:last-child {
   margin-bottom: 0px;
 }
 
-.title2{
-  color: #003147;
+.title2 {
+  color: #460027;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
 
-p{
-  color: #333;
+p {
+  color: #333333;
 }
 
-.about .box{
-  display:flex;
+.about .box {
+  display: flex;
   flex-direction: row;
   margin: 20px 0;
 }
 
-.about .box .year_company{
+.about .box .year_company {
   min-width: 150px;
 }
 
-.about .box .year_company h5{
+.about .box .year_company h5 {
   text-transform: uppercase;
   color: #848c90;
   font-weight: 600;
-  box-sizing: border-box; /*allows us to include the padding and border in an element's total width and height. */ 
-  
+  box-sizing: border-box;
 }
 
-.about .box .text h4{
+.about .box .text h4 {
   text-transform: uppercase;
-  color: #2a7da2;
+  color: #760140;
 }
 
-.skills .box{
+.skills .box {
   position: relative;
   width: 100%;
   display: grid;
@@ -228,108 +220,93 @@ p{
   align-items: center;
 }
 
-.skills .box h4{
+.skills .box h4 {
   text-transform: uppercase;
   color: #848c99;
   font-weight: 500;
 }
 
-.skills .box .percent{
+.skills .box .percent {
   position: relative;
   width: 100%;
   height: 10px;
   background: #f0f0f0;
 }
 
-.skills .box .percent{
-  position: relative;
-  width: 100%;
-  height: 10px;
-  background: #f0f0f0;
-}
-
-.skills .box .percent div{
+.skills .box .percent div {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   height: 100%;
-  background-color: #03a9f4;
+  background-color: #ff00b0;
 }
 
-.interest ul{
+.interest ul {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.interest ul li{
-  list-style:none;
-  color: #333;
+.interest ul li {
+  list-style: none;
+  color: #333333;
   font-weight: 500;
   margin: 10px 0;
   white-space: nowrap;
-
-  
 }
 
-.interest ul li .fa{
-  color: #03a9f4;
+.interest ul li .fa {
+  color: #ff00b0;
   font-size: 18px;
   width: 20px;
   margin-right: 5px;
   margin-left: 5px;
 }
 
-@media(max-width: 1000px){
-  .container .left_Side{
+@media (max-width: 1000px) {
+  .container .left_Side {
     border-radius: 20px 20px 0 0;
   }
-  
-  .container{
-    margin:10px;
-    grid-template-columns: repeat(1,1fr);
+
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .interest ul{
-    grid-template-columns: repeat(2,1fr);
-
+  .interest ul {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media(max-width: 600px){
-  .about .box{
+@media (max-width: 600px) {
+  .about .box {
     flex-direction: column;
   }
 
-  .about .box .year_company{
+  .about .box .year_company {
     min-width: 150px;
     margin-bottom: 5px;
   }
-  .interest ul{
-    grid-template-columns: repeat(1,1fr);
 
+  .interest ul {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  
-.interest ul li .fa{
-  margin-right: 5px;
-  margin-left: 0px;
-}
+  .interest ul li .fa {
+    margin-right: 5px;
+    margin-left: 0px;
+  }
 
-
-  .skills .box{
-    grid-template-columns:repeat(1,1fr);
+  .skills .box {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
-a{
-  text-decoration:none; 
-  color: #fff;
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-
-/* Front-End Joe */
-
-html{
+html {
   height: 100%;
 }
 
@@ -340,10 +317,9 @@ html{
 }
 
 body {
-
-  background-image: url("img/background.svg");
+  background-image: url("low-poly-grid-haikei.svg");
   background-size: cover;
-
-  animation: rotate 6s infinite alternate linear;
+  animation: rotate 3s infinite alternate linear;
 }
+
 
